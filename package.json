@@ -1,0 +1,24 @@
+{
+  "name": "jsreport",
+  "version": "1.0.0",
+  "description": "jsreport playground",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc --build"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^18.11.18",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@jsreport/browser-client": "^3.1.0",
+    "@jsreport/jsreport-chrome-pdf": "^3.3.0",
+    "@jsreport/jsreport-cli": "^3.2.3",
+    "@jsreport/jsreport-core": "^3.10.0",
+    "@jsreport/jsreport-handlebars": "^3.2.1",
+    "jsreport": "^2.6.1"
+  }
+}
